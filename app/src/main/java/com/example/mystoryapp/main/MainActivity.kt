@@ -70,6 +70,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
+            R.id.language_setting -> {
+                startActivity(Intent(Settings.ACTION_LOCALE_SETTINGS))
+            }
             R.id.logout_setting -> {
                 mainViewModel.logout()
             }

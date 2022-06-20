@@ -16,6 +16,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyStoryApp">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCbbSbl-qmhgmcSh7a7oqQO8G0vDc-AAOQ" />
+
         <activity
             android:name=".ui.UploadStoryActivity"
             android:exported="false" />
