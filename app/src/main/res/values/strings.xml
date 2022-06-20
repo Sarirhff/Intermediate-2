@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">MyStoryApp</string>
+
+    <string name="mymenu_1">everyone share their amazing story here</string>
+    <string name="mymenu_2">You can read other people\'s stories here</string>
+    <string name="mymenu_3">Create your story and share it with the world</string>
+    <string name="mymenu_4">let\'s share your interesting story here</string>
+
+    <string name="descrip_mymenu_1">they share a lot of new and fun stories to watch</string>
+    <string name="descrip_mymenu_2">everyone can share any story here</string>
+    <string name="descrip_mymenu_3">you are free to share any story</string>
+    <string name="descrip_mymenu_4">Tell me about an interesting incident that you\'ve been through</string>
+
+    <string name="lets_start">Let\'s Start</string>
+    <string name="welcome">WELCOME</string>
+    <string name="have_account">Don\'t have Account?</string>
+    <string name="login">Log In</string>
+    <string name="regis">Registration</string>
+    <string name="log_out">Log Out</string>
+    <string name="sign_up_success">You have already Account</string>
+    <string name="empty_name">please input your name</string>
+    <string name="empty_email">please input your email</string>
+    <string name="empty_pass">password more than 6 characters</string>
+    <string name="story_not_found">Story not Found</string>
+    <string name="add_story">Add Story</string>
+    <string name="permission_cam">This app needs permission use the camera</string>
+    <string name="descrip_story">Story Description</string>
+    <string name="upload">Upload</string>
+    <string name="wait_picture">Please wait</string>
+    <string name="descrip_empty">Description can not be empty</string>
+    <string name="story_success">Your Story has been upload</string>
+    <string name="failed_take">Failed take a picture</string>
+    <string name="failed_cam">Failed to show Camera</string>
+    <string name="logout_setting">LOG OUT</string>
+    <string name="register">Register</string>
+    <string name="already_have_account">Already Have Account?</string>
+    <string name="password">Password</string>
+    <string name="user_name">User Name</string>
+    <string name="email">Email</string>
+    <string name="vektor">vektor</string>
+    <string name="user_login">User Login</string>
+    <string name="email_correct">Your Email entered in not Correct</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="retry">Retry</string>
+    <string name="failed_story">Failed</string>
+    <string name="preview_image">Preview Image</string>
+    <string name="img_btn">img button</string>
+    <string name="loading_cam">Loading</string>
+    <string name="img_view">image view</string>
+    <string name="failed_map">Failed to show Map</string>
+    <string name="maps_story_tittle">See Story of %s</string>
+    <string name="story_desc_empty">Story Description is Required</string>
+    <string name="story_add">Add Story</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satelit</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+    <string name="language_setting">Language</string>
+    <string name="maps">Maps</string>
+</resources>

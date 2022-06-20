@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.signin.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/img_regis"
+        android:layout_width="365dp"
+        android:layout_height="194dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ilustrasi6"
+        android:contentDescription="@string/vektor" />
+
+    <TextView
+        android:id="@+id/regis_text"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="138dp"
+        android:fontFamily="@font/paprika"
+        android:text="@string/register"
+        android:textColor="@color/black"
+        android:textSize="29sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_regis" />
+
+
+    <com.example.mystoryapp.customview.EmailMyEditText
+        android:id="@+id/edt_email_regis"
+        android:layout_width="327dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/edit_text"
+        android:hint="@string/email"
+        app:layout_constraintEnd_toEndOf="@+id/edt_usrname_regis"
+        app:layout_constraintStart_toStartOf="@+id/edt_usrname_regis"
+        app:layout_constraintTop_toBottomOf="@+id/edt_usrname_regis" />
+
+    <com.example.mystoryapp.customview.MyEditText
+        android:id="@+id/edt_usrname_regis"
+        android:layout_width="327dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="42dp"
+        android:background="@drawable/edit_text"
+        android:hint="@string/user_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regis_text" />
+
+    <com.example.mystoryapp.customview.PasswordMyEditText
+        android:id="@+id/edt_password_regis"
+        android:layout_width="327dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/edit_text"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/edt_email_regis"
+        app:layout_constraintStart_toStartOf="@+id/edt_email_regis"
+        app:layout_constraintTop_toBottomOf="@+id/edt_email_regis" />
+
+    <Button
+        android:id="@+id/button_regis"
+        style="@style/Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/register"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/edt_password_regis"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edt_password_regis"
+        app:layout_constraintTop_toBottomOf="@+id/edt_password_regis" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/already_have_account"
+        app:layout_constraintStart_toStartOf="@+id/button_regis"
+        app:layout_constraintTop_toBottomOf="@+id/button_regis" />
+
+    <TextView
+        android:id="@+id/to_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="21dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/login"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/button_regis"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/button_regis" />
+
+    <ProgressBar
+        android:id="@+id/loading_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
